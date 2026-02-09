@@ -55,10 +55,10 @@ namespace CALCULADORA
         private void BTN3_Click(object sender, EventArgs e)
         {
             if (textBox1.Text == "0")
-                textBox1.Text = "33";
+                textBox1.Text = "3";
 
             else 
-                textBox1.Text += "33";
+                textBox1.Text += "3";
         }
 
         private void BTN1_Click(object sender, EventArgs e)
@@ -82,55 +82,55 @@ namespace CALCULADORA
         private void BTN4_Click(object sender, EventArgs e)
         {
             if (textBox1.Text == "0")
-                textBox1.Text = "44";
+                textBox1.Text = "4";
 
             else
-                textBox1.Text += "44";
+                textBox1.Text += "4";
         }
 
         private void BTN5_Click(object sender, EventArgs e)
         {
             if (textBox1.Text == "0")
-                textBox1.Text = "55";
+                textBox1.Text = "5";
 
             else
-                textBox1.Text += "55";
+                textBox1.Text += "5";
         }
 
         private void BTN6_Click(object sender, EventArgs e)
         {
             if (textBox1.Text == "0")
-                textBox1.Text = "66";
+                textBox1.Text = "6";
 
             else
-                textBox1.Text += "66";
+                textBox1.Text += "6";
         }
 
         private void BTN7_Click(object sender, EventArgs e)
         {
             if (textBox1.Text == "0")
-                textBox1.Text = "78";
+                textBox1.Text = "7";
 
             else
-                textBox1.Text += "78";
+                textBox1.Text += "7";
         }
 
         private void BTN8_Click(object sender, EventArgs e)
         {
             if (textBox1.Text == "0")
-                textBox1.Text = "87";
+                textBox1.Text = "8";
 
             else
-                textBox1.Text += "87";
+                textBox1.Text += "8";
         }
 
         private void BTN9_Click(object sender, EventArgs e)
         {
             if (textBox1.Text == "0")
-                textBox1.Text = "91";
+                textBox1.Text = "9";
 
             else
-                textBox1.Text += "91";
+                textBox1.Text += "9";
         }
 
         private void BTN0_Click(object sender, EventArgs e)
@@ -144,7 +144,7 @@ namespace CALCULADORA
 
         private void BTNLIMPAR_Click(object sender, EventArgs e)
         { 
-            textBox1.Text = "";
+            textBox1.Text = "0";
         }
 
         private void BTNSOMA_Click(object sender, EventArgs e)
@@ -154,10 +154,14 @@ namespace CALCULADORA
 
         private void BTNPONTO_Click(object sender, EventArgs e)
         {
-            if (!textBox1.Text.Contains("."))
+            if (!textBox1.Text.Contains(","))
             {
                 textBox1.Text += ",";
             }
+
+            
+            
+            
         }
 
         private void BTNIGUAL_Click(object sender, EventArgs e)

@@ -100,7 +100,7 @@
             BTN3.Name = "BTN3";
             BTN3.Size = new Size(79, 60);
             BTN3.TabIndex = 3;
-            BTN3.Text = "33";
+            BTN3.Text = "3";
             BTN3.UseVisualStyleBackColor = false;
             BTN3.Click += BTN3_Click;
             // 
@@ -115,7 +115,7 @@
             BTN4.Name = "BTN4";
             BTN4.Size = new Size(79, 60);
             BTN4.TabIndex = 4;
-            BTN4.Text = "44";
+            BTN4.Text = "4";
             BTN4.UseVisualStyleBackColor = false;
             BTN4.Click += BTN4_Click;
             // 
@@ -130,7 +130,7 @@
             BTN5.Name = "BTN5";
             BTN5.Size = new Size(79, 60);
             BTN5.TabIndex = 5;
-            BTN5.Text = "55";
+            BTN5.Text = "5";
             BTN5.UseVisualStyleBackColor = false;
             BTN5.Click += BTN5_Click;
             // 
@@ -145,7 +145,7 @@
             BTN8.Name = "BTN8";
             BTN8.Size = new Size(79, 60);
             BTN8.TabIndex = 6;
-            BTN8.Text = "87";
+            BTN8.Text = "8";
             BTN8.UseVisualStyleBackColor = false;
             BTN8.Click += BTN8_Click;
             // 
@@ -160,7 +160,7 @@
             BTN7.Name = "BTN7";
             BTN7.Size = new Size(79, 60);
             BTN7.TabIndex = 7;
-            BTN7.Text = "78";
+            BTN7.Text = "7";
             BTN7.UseVisualStyleBackColor = false;
             BTN7.Click += BTN7_Click;
             // 
@@ -190,7 +190,7 @@
             BTN9.Name = "BTN9";
             BTN9.Size = new Size(79, 60);
             BTN9.TabIndex = 9;
-            BTN9.Text = "91";
+            BTN9.Text = "9";
             BTN9.UseVisualStyleBackColor = false;
             BTN9.Click += BTN9_Click;
             // 
@@ -205,7 +205,7 @@
             BTN6.Name = "BTN6";
             BTN6.Size = new Size(79, 60);
             BTN6.TabIndex = 10;
-            BTN6.Text = "66";
+            BTN6.Text = "6";
             BTN6.UseVisualStyleBackColor = false;
             BTN6.Click += BTN6_Click;
             // 
